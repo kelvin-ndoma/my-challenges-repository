@@ -1,5 +1,8 @@
                                           moringa school
 INTRODUCTION
+
+
+
 This README file contains three files. A file which outputs students grades, another that demerit points from ovespeeding drivers and one that generates the net salary of employees
 
 BODY
