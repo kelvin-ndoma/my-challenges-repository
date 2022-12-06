@@ -1,13 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Title of the web page -->
+    <title>Net Salary Calculator</title>
 </head>
 <body>
-    <button onclick="promptMarks()">Click Me</button>
-    <script src="Grade.js"></script>
+    <!-- Headings of the calculator page -->
+    <h1>Net Salary Calculator</h1>
+    <!-- Instruction to the user -->
+    <p>On clicking the button, enter your basic salary as well as other benefits. 
+        kindly check your salary and deductions
+    </p>
+    <!-- Button where the user is prompted to enter their basic salary-->
+    <button onclick="netSalary()">Click me</button>
+    <br>
+    <br>
+    <!-- Table  potraying our output objects -->
+    <table>
+        <tr>NET SALARY CALCULATOR</tr>
+        <tr>
+            <td>Basic Salary</td><br>
+            <td id="basic">  </td>
+        </tr>
+        <tr>
+            <td>Total Benefits</td><br>
+            <td id="benefits"></td>
+        </tr>
+        <tr>
+            <td style="background-color: white">Gross Salary</td>
+            <td id="gross" style="background-color: whitesmoke"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr></tr>
+            <td>Deductions</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>PAYEE</td>
+            <td id="payee"></td>
+        </tr>
+        <tr>
+            <td>NHIF</td>
+            <td id="nhif"></td>
+        </tr>
+        <tr>
+            <td>NSSF</td>
+            <td id="nssf"></td>
+        </tr>
+        <tr>
+            <td  style="background-color: whitesmoke">Total Deductions</td>
+            <td id="deductions" style="background-color: whitesmoke"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="color: black;">NET SALARY</td>
+            <td id="net" style="background-color: white"></td>
+        </tr>
+    </table>
 </body>
+<!-- connecting to our javascript -->
+<!-------connecting to js for speed.js----->
+<!-------<script scr="speed.js"---->
+<script src="salary.js"></script>
 </html>
