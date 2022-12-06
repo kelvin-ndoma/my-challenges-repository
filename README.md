@@ -54,4 +54,4 @@ N/B: USE THE LINKS BELOW TO OBTAIN THE REQUIRED DATA
 
 CONCLUSION
 
-By solving the 3 challenges you are practising to implement javaScript to finding solutions to daily problems. using call back functions and alterating through functio
+By solving the 3 challenges you are practising to implement javaScript to finding solutions to daily problems. using call back functions and alterating through functions.
