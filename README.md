@@ -6,7 +6,11 @@ INTRODUCTION
 This README file contains three files. A file which outputs students grades, another that demerit points from ovespeeding drivers and one that generates the net salary of employees
 
 BODY
-Your are supposed to,
+
+
+Required to:
+
+
 1. Create a repository on your GitHub account. 
 
 NB: All the solutions are held in one folder
@@ -17,7 +21,10 @@ NB: All the solutions are held in one folder
 
 4. The repository link is then Submitted  for grading.
 
+
+
 THE CHALLENGES
+
 Challenge 1: Student Grade Generator 
 
  You are suposed to Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond the correct grade, as shown below: 
@@ -32,6 +39,7 @@ Challenge 1: Student Grade Generator
 
 Challenge 2: Speed Detector (Toy Problem)
 
+
 Required to Write a program that takes the speed of a car as input e.g 70. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
 
 Challenge 3: Net Salary Calculator (Toy Problem)
@@ -45,4 +53,5 @@ N/B: USE THE LINKS BELOW TO OBTAIN THE REQUIRED DATA
 - THE LINKS ARE FROM EXTERNAL SITES
 
 CONCLUSION
+
 By solving the 3 challenges you are practising to implement javaScript to finding solutions to daily problems. using call back functions and alterating through functio
